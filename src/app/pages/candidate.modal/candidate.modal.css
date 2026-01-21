@@ -1,0 +1,26 @@
+.modal-custom-content {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+.modal-custom-content h2 {
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+
+.modal-custom-header {
+    border-bottom: 1px solid #cdd1d4;
+}
+.modal-custom-body {
+    padding: 10px;
+    flex-grow: 1;
+}
+.modal-custom-footer {
+    border-top: 1px solid #cdd1d4;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}

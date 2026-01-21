@@ -1,0 +1,64 @@
+<!-- Modal -->
+
+<!-- <div class="modal-custom-content">
+  <div class="modal-custom-header">
+    <h2 mat-dialog-title>Add Product</h2>
+  </div>
+  <div mat-dialog-content class="modal-custom-body">
+    <form>
+      
+    </form>
+  </div>
+  <div class="modal-custom-footer" mat-dialog-actions  align="end" >
+    <button mat-button mat-dialog-close class="btn btn-secondary me-2">Close</button>
+    <button mat-raised-button class="btn btn-primary" >Submit</button>
+  </div>
+  
+</div> -->
+
+
+    <div class="modal-custom-content">
+        <div class="modal-custom-header">
+            <h2 mat-dialog-title>Add Candidate</h2>
+        </div>
+        <div mat-dialog-content class="modal-custom-body">
+            <form>
+                <div class="row m-1">
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="candidateName" class="form-label">Candidate Name</label>
+                        <input type="text" class="form-control" id="candidateName" placeholder="Enter candidate name" />
+                    </div>
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                    </div>
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="Enter phone number" />
+                    </div>  
+
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="experienced" class="form-label">Experienced</label>
+                        <select class="form-select" id="experienced">
+                            <option value="" disabled selected>Select option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="experience" class="form-label">Experience (in years)</label>
+                        <input type="text" class="form-control" id="experience" placeholder="Enter experience" />
+                    </div>
+                    <div class="col-md-6 mb-3 px-2">
+                        <label for="department" class="form-label">Department</label>
+                        <input type="text" class="form-control" id="department" placeholder="Enter department" />
+                    </div>
+                </div>
+                        
+            </form>
+        </div>
+        <div class="modal-custom-footer" mat-dialog-actions align="end">
+            <button mat-button mat-dialog-close class="btn btn-secondary me-2">Close</button>
+            <button mat-raised-button class="btn btn-primary">Submit</button>
+        </div>
+    </div>

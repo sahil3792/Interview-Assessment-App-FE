@@ -25,7 +25,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/material-theme.scss",
+              "src/styles.css",
+              "public/assets/css/styles.min.css"
+            ],
+            "scripts": [
+              
             ]
           },
           "configurations": {
